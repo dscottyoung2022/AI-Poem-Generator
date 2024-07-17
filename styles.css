@@ -33,6 +33,10 @@ form {
   margin-bottom: 30px;
 }
 
+.poem strong {
+  color: #885df1;
+}
+
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
