@@ -21,10 +21,6 @@ function generatePoem(event) {
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="blink">⏳ Generating a wholesome poem about ${instructionsInput.value}</div>`;
 
-  console.log("Generating a poem");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayPoem);
 }
 
